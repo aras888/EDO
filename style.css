@@ -1,0 +1,122 @@
+body {
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+}
+
+/*background image*/
+#particles-js {
+    height: 100%;
+    background: url('coolbackground.jpg') no-repeat;
+    background-size: none;
+}
+
+/*for the navigation bar (until next comment)*/
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+}
+   
+ul li {
+    float: left;
+    width: 600px;
+    height: 60px;
+    opacity: .8;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+   
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+   
+ul li a:hover {
+    background-color: grey;
+}
+   
+ul li ul li {
+    display: none;
+}
+   
+ul li:hover ul li {
+    display: block;
+}
+/*end of navigation bar*/
+
+/*formatting of the text on index (the home page)*/
+.text {
+    border: 5px solid black;
+    left: 200px;
+    line-height: 30px;
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    height: 400px;
+    width: 1250px;
+    font-size: 10px;
+}
+
+/*the formatting of my picture on the homepage*/
+.text img {
+    border: 5px solid black;
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 400px;
+    width: 300px;
+}
+
+/*formatting of my assignments*/
+.assignments {
+    left: 200px;
+    line-height: 30px;
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    height: 400px;
+    width: 1250px;
+    font-size: 10px;
+}
+
+/*size of the embedded documents on screen*/
+.table iframe {
+    height: 350px;
+    width: 600px;
+}
+    /*the link to assignment w78*/
+ .assignments p {
+   float: right;
+   color: black;
+   font-size: 20px;
+}
+
+/*formatting for the text on the contact page*/
+.contact p a {
+    font-size: 40px;
+    left: 200px;
+    line-height: 50px;
+    position: absolute;
+    text-align: left;
+    top: 40%;
+}
+
+
+
+
+
+/*the footer at the bottom of each page*/
+footer {
+    position: fixed;
+    left: 40px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+}
